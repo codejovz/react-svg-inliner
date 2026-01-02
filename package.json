@@ -1,0 +1,48 @@
+{
+  "name": "react-svg-inliner",
+  "version": "1.0.0",
+  "description": "Inline SVG loader for React and Next.js client components",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "postinstall": "node postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codejovz/react-svg-inliner.git"
+  },
+  "author": "Jorge Varela Zamora <jorgevarelazamora@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/codejovz/react-svg-inliner/issues"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "react",
+    "svg",
+    "nextjs",
+    "inline-svg"
+  ],
+  "license": "MIT"
+}
