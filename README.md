@@ -1,10 +1,13 @@
 # react-svg-inliner
 
+[![CI](https://github.com/codejovz/react-svg-inliner/actions/workflows/instructions.yml/badge.svg)](https://github.com/codejovz/react-svg-inliner/actions/workflows/instructions.yml)
+
+
 Inline SVG loader for React and Next.js, built with modern standards:
-- Fully compatible with React 18 and Next.js 13
-- Written in TypeScript for type safety
-- Declarative handling of active states
-- Supports modern CSS and accessibility best practices
+- Fully compatible with React 18 (Next.js 13 supported).
+- Written in TypeScript for type safety.
+- Declarative handling of active states.
+- Supports modern CSS and accessibility best practices.
 
 ## ⚙️ Installation
 
