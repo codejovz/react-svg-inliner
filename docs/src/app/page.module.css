@@ -1,0 +1,127 @@
+.container {
+    padding-bottom: 4rem;
+}
+
+.hero {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-border-muted);
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--color-fg-default);
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: var(--color-fg-muted);
+    margin-bottom: 1.5rem;
+}
+
+.badges {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.demo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+}
+
+.demoPreview {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--color-canvas-subtle);
+    border-radius: 6px;
+    border: 1px solid var(--color-border-muted);
+}
+
+.demoControls {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.controlGroup {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.controlGroup label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    min-width: 80px;
+}
+
+.demoNote {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: var(--color-fg-subtle);
+}
+
+.colorPicker {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.colorSwatch {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.colorSwatch:hover {
+    transform: scale(1.1);
+}
+
+.documentation h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid var(--color-border-muted);
+    padding-bottom: 0.3em;
+}
+
+.documentation p {
+    margin-bottom: 1rem;
+}
+
+.tableWrapper {
+    overflow-x: auto;
+    margin-top: 1rem;
+}
+
+.propsTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.propsTable th,
+.propsTable td {
+    border: 1px solid var(--color-border-default);
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.propsTable th {
+    background-color: var(--color-canvas-subtle);
+    font-weight: 600;
+}
+
+.propsTable tr:nth-child(2n) {
+    background-color: var(--color-canvas-subtle);
+}

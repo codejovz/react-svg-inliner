@@ -1,0 +1,21 @@
+.card {
+    background-color: var(--color-canvas-default);
+    border: 1px solid var(--color-border-default);
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow-small);
+}
+
+.cardHeader {
+    background-color: var(--color-canvas-subtle);
+    border-bottom: 1px solid var(--color-border-default);
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.cardBody {
+    padding: 1rem;
+}

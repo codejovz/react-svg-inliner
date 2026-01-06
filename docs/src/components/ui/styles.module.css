@@ -1,0 +1,67 @@
+/* CodeBlock */
+.codeBlockWrapper {
+    background-color: var(--color-canvas-subtle);
+    border: 1px solid var(--color-border-muted);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+.codeBlock {
+    font-family: var(--font-stack-mono);
+    font-size: 0.85rem;
+    margin: 0;
+    white-space: pre;
+}
+
+/* Button */
+.btn {
+    appearance: none;
+    border: 1px solid var(--color-btn-border);
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 5px 16px;
+    position: relative;
+    transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    transition-property: color, background-color, border-color;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.btn-default {
+    background-color: var(--color-btn-bg);
+    color: var(--color-btn-text);
+}
+
+.btn-default:hover {
+    background-color: var(--color-btn-hover-bg);
+    border-color: var(--color-btn-hover-border);
+}
+
+.btn-primary {
+    background-color: var(--color-btn-primary-bg);
+    color: var(--color-btn-primary-text);
+    border-color: var(--color-btn-primary-border);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-btn-primary-hover-bg);
+}
+
+.btn-danger {
+    color: #cf222e;
+    background-color: var(--color-btn-bg);
+}
+
+.btn-danger:hover {
+    background-color: #ffebe9;
+    color: #cf222e;
+    border-color: rgba(27, 31, 36, 0.15);
+}

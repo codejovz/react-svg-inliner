@@ -35,7 +35,7 @@ We welcome **all contributions**! Whether it’s fixing bugs, adding features, i
 
 ## 📝 TODO List
 
-- [ ] VanillaJS compatibility.
+- [ ] ❓
 
 ---
 
