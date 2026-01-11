@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# React SVG Inliner - Documentation Web App
 
-## Getting Started
+Welcome to the documentation and showcase website for `react-svg-inliner`. This modern web application is built to demonstrate the power, flexibility, and ease of use of the `react-svg-inliner` library.
 
-First, run the development server:
+The site is designed with a focus on performance, aesthetics, and developer experience, providing an interactive playground and in-depth explanations of why SVGs are the superior choice for modern web development.
+
+## ⚡ Tech Stack
+
+This project leverages the latest standards in web development:
+
+*   **Next.js 16 (App Router)**: Utilizing the latest React framework for server-side rendering, static generation, and efficient routing.
+*   **React 19**: Built on the cutting-edge version of React.
+*   **TypeScript**: Ensuring type safety and a robust development experience.
+*   **CSS Modules**: For scoped, maintainable, and collision-free styling.
+*   **Modern CSS**: Utilizing CSS variables and native features for a responsive and themable design.
+
+## 🚀 Getting Started
+
+Follow these steps to run the documentation locally on your machine.
+
+### 1. Clone the Repository
+
+If you haven't already, clone the `react-svg-inliner` repository:
+
+```bash
+git clone https://github.com/codejovz/react-svg-inliner.git
+```
+
+### 2. Navigate to the Project Directory
+
+Switch to the `docs` folder where this web application resides:
+
+```bash
+cd react-svg-inliner/docs
+```
+
+### 3. Install Dependencies
+
+Install the necessary dependencies using `npm`:
+
+```bash
+npm install
+```
+
+### 4. Run the Development Server
+
+Start the local development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📂 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project follows a **Feature-Based Architecture** using the Next.js App Router. This keeps related code collocated, making it easier to maintain and scale.
 
-## Learn More
+```
+docs/
+├── src/
+│   ├── app/                 # App Router: Routes & Pages
+│   │   ├── page.tsx         # Landing Page (Home)
+│   │   ├── playground/      # Playground Feature
+│   │   └── why-svgs/        # "Why SVGs?" Feature
+│   ├── components/          # Reusable UI Components
+│   └── ...
+├── public/                  # Static Assets
+└── ...
+```
 
-To learn more about Next.js, take a look at the following resources:
+*   **`src/app`**: Contains the main application logic. Each folder represents a route (e.g., `/playground`, `/why-svgs`), encompassing its own page, layout, and specific styles.
+*   **`src/components`**: Houses shared, reusable components used across different pages to ensure consistency.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Gallery
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Here is a preview of the application:
 
-## Deploy on Vercel
+### Landing Page
+The entry point featuring a comprehensive guide and introduction.
+![Landing Page](./private/assets/screenshot-landing-page.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Interactive Playground
+A dedicated space to test `react-svg-inliner` in real-time. Code on the left, live preview on the right.
+![Playground](./private/assets/screenshot-playground.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Why SVGs?
+An educational page explaining the benefits of scalable vector graphics.
+![Why SVGs](./private/assets/screenshot-why-svgs.png)

@@ -133,6 +133,16 @@ import { SvgInline } from "react-svg-inliner";
                 <td><code>string</code></td>
                 <td>Title attribute for accessibility (tooltip).</td>
               </tr>
+              <tr>
+                <td><code>onError</code></td>
+                <td><code>(err: Error) ={'>'} void</code></td>
+                <td>Callback function if the SVG fails to load.</td>
+              </tr>
+              <tr>
+                <td><code>id</code></td>
+                <td><code>string</code></td>
+                <td>ID to assign to the SVG element. Overrides the ID in the file if present.</td>
+              </tr>
             </tbody>
           </table>
         </div>

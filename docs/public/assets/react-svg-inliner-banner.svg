@@ -1,0 +1,73 @@
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="white" />
+
+  <g transform="translate(100,110)">
+    <!-- top notebook line -->
+    <path
+      d="M0,-55 H620"
+      fill="none"
+      stroke="black"
+      stroke-width="3"
+      stroke-dasharray="620"
+      stroke-dashoffset="620"
+    >
+      <animate
+        attributeName="stroke-dashoffset"
+        from="620"
+        to="0"
+        dur="1.8s"
+        fill="freeze"
+      />
+    </path>
+
+    <!-- text -->
+    <text
+      y="0"
+      font-family="cursive, 'Comic Sans MS', sans-serif"
+      font-size="60"
+      font-weight="bold"
+      fill="none"
+      stroke="black"
+      stroke-width="2"
+      stroke-dasharray="1200"
+      stroke-dashoffset="1200"
+    >
+      react-svg-inliner
+
+      <animate
+        attributeName="stroke-dashoffset"
+        from="1200"
+        to="0"
+        dur="1.8s"
+        fill="freeze"
+      />
+
+      <animate
+        attributeName="fill"
+        from="transparent"
+        to="black"
+        begin="1.8s"
+        dur="0.01s"
+        fill="freeze"
+      />
+    </text>
+
+    <!-- bottom notebook line -->
+    <path
+      d="M0,20 H620"
+      fill="none"
+      stroke="black"
+      stroke-width="3"
+      stroke-dasharray="620"
+      stroke-dashoffset="620"
+    >
+      <animate
+        attributeName="stroke-dashoffset"
+        from="620"
+        to="0"
+        dur="1.8s"
+        fill="freeze"
+      />
+    </path>
+  </g>
+</svg>

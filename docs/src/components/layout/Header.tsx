@@ -19,13 +19,13 @@ export function Header({ onMenuClick }: HeaderProps) {
                     <h1>react-svg-inliner</h1>
                 </div>
                 <div className={styles.headerActions}>
-                    <a href="https://github.com/codejovz/react-svg-inliner" target="_blank" rel="noopener noreferrer" className={styles.githubLink}>
+                    <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">
                         <SvgInline
-                            src="/assets/icons/github/github-mark.svg"
+                            src="/assets/icons/vercel.svg"
                             className={styles.githubIcon}
                             style={{ width: '20px', height: '20px' }}
                         />
-                        GitHub
+                        Hosted on Vercel
                     </a>
                 </div>
             </div>

@@ -1,6 +1,9 @@
 # react-svg-inliner
 
+![react-svg-inliner-banner](/docs/public/assets/react-svg-inliner-banner.svg)
+
 [![NPM](https://img.shields.io/badge/react--svg--inliner-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/react-svg-inliner)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Dependency Audit](https://github.com/codejovz/react-svg-inliner/actions/workflows/instructions.yml/badge.svg)](https://github.com/codejovz/react-svg-inliner/actions/workflows/instructions.yml)
 
 

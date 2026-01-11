@@ -22,6 +22,7 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
                 <ul className={styles.navList}>
                     <li><Link href="/" className={styles.navLink} onClick={onClose}>Getting Started</Link></li>
                     <li><Link href="/why-svgs" className={styles.navLink} onClick={onClose}>Why SVGs?</Link></li>
+                    <li><Link href="/playground" className={styles.navLink} onClick={onClose}>Playground</Link></li>
                 </ul>
             </nav>
         </>
