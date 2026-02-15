@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codejovz/react-svg-inliner.git"
+    "url": "git+https://github.com/codejovz/react-svg-inliner.git"
   },
   "author": "Jorge Varela Zamora <jorgevarelazamora@gmail.com>",
   "bugs": {

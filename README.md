@@ -8,7 +8,7 @@
 
 
 Inline SVG loader for React and Next.js, built with modern standards:
-- Fully compatible with React 18 (Next.js 13 supported).
+- Fully compatible with React 19 (Next.js 16 supported).
 - Written in TypeScript for type safety.
 - Declarative handling of active states.
 - Supports modern CSS and accessibility best practices.
